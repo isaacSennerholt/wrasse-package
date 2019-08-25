@@ -1,8 +1,8 @@
 {
   "name": "wrasse-package",
   "version": "1.0.0",
-  "description": "Create duck package",
-  "main": "src/index.js",
+  "description": "Create duck package.",
+  "main": "lib/wrasse-package.js",
   "scripts": {
     "test": "./node_modules/.bin/jest",
     "test-unit-all": "npm run test -- unit"
@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "is-plain-object": "^2.0.4",
-    "wrasse-duck-extend": "git+https://github.com/isaacSennerholt/wrasse-duck-extend.git"
+    "wrasse-duck-extend": "^1.0.0"
   },
   "devDependencies": {
     "cross-env": "^5.2.0",
